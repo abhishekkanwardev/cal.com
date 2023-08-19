@@ -7,7 +7,7 @@
   "authors": "Cal.com, Inc.",
   "version": "1.0.0",
   "scripts": {
-    "build": "node build.mjs"
+    "build": "node init && node build.mjs"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",

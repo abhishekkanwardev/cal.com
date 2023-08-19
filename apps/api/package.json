@@ -7,12 +7,12 @@
   "author": "Cal.com Inc.",
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "node init && next build",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next",
-    "dev": "PORT=3002 next dev",
+    "dev": "node init && PORT=3002 next dev",
     "lint": "eslint . --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .ts,.js,.tsx,.jsx --fix",
-    "start": "PORT=3002 next start",
+    "start": "node init && PORT=3002 next start",
     "type-check": "tsc --pretty --noEmit"
   },
   "devDependencies": {

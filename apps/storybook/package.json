@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "dev": "node init && start-storybook -p 6006",
+    "build": "node init && build-storybook"
   },
   "dependencies": {
     "@calcom/config": "*",
